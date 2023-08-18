@@ -23,7 +23,7 @@ const openDialog = () => {
 
 <template>
   <div class="toolbar-container">
-    <p>Framework Battle Royale</p>
+    <p>Framework Battle Royale: <strong>Nuxt</strong></p>
     <GButton :call-back="openDialog">Open Dialog</GButton>
   </div>
   <GDialog>
